@@ -10,6 +10,8 @@ Thanks to 'lujji' for a great overview of bare-metal programming for these chips
 
 https://lujji.github.io/blog/bare-metal-programming-stm8/
 
+TODO: Use the hardware SPI peripheral.
+
 # Running it
 
 Build with SDCC:
