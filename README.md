@@ -25,6 +25,7 @@ stm8flash -c stlinkv2 -p stm8s103f3 -w main.ihx
 If the chip is write-protected and the flash operation times out, try resetting it:
 
 echo "00 00 ff 00 ff 00 ff 00 ff 00 ff" | xxd -r -p > defaults.bin
+
 stm8flash -c stlinkv2 -p stm8s103f3 -s opt -w defaults.bin
 
 From: https://github.com/vdudouyt/stm8flash/issues/38
